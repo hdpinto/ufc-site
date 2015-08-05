@@ -7,3 +7,82 @@ body {
 main {
     flex: 1 0 auto;
 }
+
+// Strikethrough Header
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: color("grey", "darken-4");
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+// End Striketrhough Header
+
+//Custom Fonts
+h1, h2, h3, h4, h5 {
+    font-family: "museo", serif;
+    font-weight: 500;
+}
+
+p {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 100;
+}
+.justify
+{
+  text-align: justify;
+  text-justify: inter-word;
+}
+// End Custom Fonts
+
+// Slide Captions
+.slide
+{
+  img
+  {
+    width: 100%;
+  }
+}
+.slide {
+  position: relative;
+}
+.caption {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  top: 30px;
+  min-height: 80px;
+  left: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 2;
+  color: white !important;
+  max-width: 20em;
+}
+
+// End Slide Captions

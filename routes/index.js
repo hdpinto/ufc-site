@@ -5,7 +5,7 @@ router.get('/', function(req, res, next) {
   res.redirect('/home');
 });
 router.get('/home', function(req, res, next) {
-  res.render('index', { title: 'About | Uncle Frank\'s Construction', page: req.url });
+  res.render('index', { title: 'Toronto Demolition Company | Uncle Frank\'s Construction', page: req.url });
 });
 router.get('/about', function(req, res, next) {
   res.render('index', { title: 'About | Uncle Frank\'s Construction', page: req.url });

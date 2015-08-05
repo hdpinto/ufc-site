@@ -12848,3 +12848,84 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+/* line 12, ../sass/custom/_style.scss */
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* line 19, ../sass/custom/_style.scss */
+.strike > span {
+  position: relative;
+  display: inline-block;
+}
+
+/* line 24, ../sass/custom/_style.scss */
+.strike > span:before,
+.strike > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 1px;
+  background: #212121;
+}
+
+/* line 34, ../sass/custom/_style.scss */
+.strike > span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+/* line 39, ../sass/custom/_style.scss */
+.strike > span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+/* line 46, ../sass/custom/_style.scss */
+h1, h2, h3, h4, h5 {
+  font-family: "museo", serif;
+  font-weight: 500;
+}
+
+/* line 51, ../sass/custom/_style.scss */
+p {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 100;
+}
+
+/* line 55, ../sass/custom/_style.scss */
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* line 65, ../sass/custom/_style.scss */
+.slide img {
+  width: 100%;
+}
+
+/* line 70, ../sass/custom/_style.scss */
+.slide {
+  position: relative;
+}
+
+/* line 73, ../sass/custom/_style.scss */
+.caption {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  top: 30px;
+  min-height: 80px;
+  left: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 2;
+  color: white !important;
+  max-width: 20em;
+}
