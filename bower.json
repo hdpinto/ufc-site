@@ -1,9 +1,13 @@
 {
-    "name": "ufcSite",
-    "description": "Website for Uncle Frank's Construction",
-    "version": "0.0.1",
-    "dependencies": {
-        "materialize": "latest",
-        "angular": "~1.4.3"
-    }
+  "name": "ufcSite",
+  "description": "Website for Uncle Frank's Construction",
+  "version": "0.0.1",
+  "dependencies": {
+    "materialize": "latest",
+    "angular": "~1.4.3",
+    "angular-slick": "latest"
+  },
+  "resolutions": {
+    "angular": "~1.4.3"
+  }
 }
