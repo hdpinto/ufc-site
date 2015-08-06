@@ -8476,8 +8476,8 @@ nav {
   color: #fff;
   background-color: #00897b;
   width: 100%;
-  height: 56px;
-  line-height: 56px;
+  height: 85px;
+  line-height: 85px;
 }
 /* line 9, ../sass/lib/materialize/components/_navbar.scss */
 nav a {
@@ -8504,13 +8504,13 @@ nav .button-collapse {
   float: left;
   position: relative;
   z-index: 1;
-  height: 56px;
+  height: 85px;
 }
 /* line 33, ../sass/lib/materialize/components/_navbar.scss */
 nav .button-collapse i {
   font-size: 2.7rem;
-  height: 56px;
-  line-height: 56px;
+  height: 85px;
+  line-height: 85px;
 }
 /* line 42, ../sass/lib/materialize/components/_navbar.scss */
 nav .brand-logo {
@@ -8621,7 +8621,7 @@ nav .input-field label.active {
 /* line 127, ../sass/lib/materialize/components/_navbar.scss */
 .navbar-fixed {
   position: relative;
-  height: 56px;
+  height: 85px;
   z-index: 998;
 }
 /* line 132, ../sass/lib/materialize/components/_navbar.scss */
@@ -8632,13 +8632,13 @@ nav .input-field label.active {
 @media only screen and (min-width: 601px) {
   /* line 137, ../sass/lib/materialize/components/_navbar.scss */
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 64px;
-    line-height: 64px;
+    height: 85px;
+    line-height: 85px;
   }
 
   /* line 141, ../sass/lib/materialize/components/_navbar.scss */
   .navbar-fixed {
-    height: 64px;
+    height: 85px;
   }
 }
 @font-face {
@@ -12669,14 +12669,14 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 /* Slider */
 /* line 40, ../sass/lib/slick/_slick-theme.scss */
 .slick-loading .slick-list {
-  background: #fff url('/images/ajax-loader.gif?1423238358') center center no-repeat;
+  background: #fff url('/images/ajax-loader.gif?1438811920') center center no-repeat;
 }
 
 /* Icons */
 @font-face {
   font-family: "slick";
-  src: url('/fonts/slick.eot?1423238358');
-  src: url('/fonts/slick.eot?&1423238358#iefix') format("embedded-opentype"), url('/fonts/slick.woff?1423238358') format("woff"), url('/fonts/slick.ttf?1423238358') format("truetype"), url('/fonts/slick.svg?1423238358#slick') format("svg");
+  src: url('/fonts/slick.eot?1438811920');
+  src: url('/fonts/slick.eot?&1438811920#iefix') format("embedded-opentype"), url('/fonts/slick.woff?1438811920') format("woff"), url('/fonts/slick.ttf?1438811920') format("truetype"), url('/fonts/slick.svg?1438811920#slick') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -12928,4 +12928,10 @@ p {
   z-index: 2;
   color: white !important;
   max-width: 20em;
+}
+
+/* line 90, ../sass/custom/_style.scss */
+.logo {
+  padding-left: 10px;
+  padding-top: 10px;
 }
