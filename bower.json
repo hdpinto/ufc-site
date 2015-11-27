@@ -5,7 +5,8 @@
   "dependencies": {
     "materialize": "latest",
     "angular": "~1.4.3",
-    "angular-slick": "latest"
+    "angular-slick": "latest",
+    "modernizr": "latest"
   },
   "resolutions": {
     "angular": "~1.4.3"

@@ -12857,13 +12857,14 @@ main {
   white-space: nowrap;
 }
 
-/* line 19, ../sass/custom/_style.scss */
+/* line 20, ../sass/custom/_style.scss */
 .strike > span {
   position: relative;
   display: inline-block;
+  z-index: 4;
 }
 
-/* line 24, ../sass/custom/_style.scss */
+/* line 26, ../sass/custom/_style.scss */
 .strike > span:before,
 .strike > span:after {
   content: "";
@@ -12874,47 +12875,52 @@ main {
   background: #212121;
 }
 
-/* line 34, ../sass/custom/_style.scss */
+/* line 36, ../sass/custom/_style.scss */
 .strike > span:before {
   right: 100%;
   margin-right: 15px;
 }
 
-/* line 39, ../sass/custom/_style.scss */
+/* line 41, ../sass/custom/_style.scss */
 .strike > span:after {
   left: 100%;
   margin-left: 15px;
 }
 
 /* line 46, ../sass/custom/_style.scss */
+.logo-spacer {
+  height: 85px;
+}
+
+/* line 52, ../sass/custom/_style.scss */
 h1, h2, h3, h4, h5 {
   font-family: "museo", serif;
   font-weight: 500;
 }
 
-/* line 51, ../sass/custom/_style.scss */
+/* line 57, ../sass/custom/_style.scss */
 p {
   font-family: "proxima-nova", sans-serif;
   font-weight: 100;
 }
 
-/* line 55, ../sass/custom/_style.scss */
+/* line 61, ../sass/custom/_style.scss */
 .justify {
   text-align: justify;
   text-justify: inter-word;
 }
 
-/* line 65, ../sass/custom/_style.scss */
+/* line 71, ../sass/custom/_style.scss */
 .slide img {
   width: 100%;
 }
 
-/* line 70, ../sass/custom/_style.scss */
+/* line 76, ../sass/custom/_style.scss */
 .slide {
   position: relative;
 }
 
-/* line 73, ../sass/custom/_style.scss */
+/* line 79, ../sass/custom/_style.scss */
 .caption {
   padding-top: 15px;
   padding-left: 20px;
@@ -12930,8 +12936,14 @@ p {
   max-width: 20em;
 }
 
-/* line 90, ../sass/custom/_style.scss */
+/* line 96, ../sass/custom/_style.scss */
 .logo {
   padding-left: 10px;
   padding-top: 10px;
+  z-index: 5;
+}
+
+/* line 103, ../sass/custom/_style.scss */
+.nav-wrapper {
+  border-bottom: 3px solid white;
 }

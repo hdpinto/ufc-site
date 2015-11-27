@@ -14,11 +14,13 @@ main {
     text-align: center;
     overflow: hidden;
     white-space: nowrap; 
+    
 }
 
 .strike > span {
     position: relative;
     display: inline-block;
+    z-index: 4;
 }
 
 .strike > span:before,
@@ -39,6 +41,10 @@ main {
 .strike > span:after {
     left: 100%;
     margin-left: 15px;
+}
+
+.logo-spacer {
+    height: 85px;
 }
 // End Striketrhough Header
 
@@ -90,4 +96,10 @@ p {
 .logo {
     padding-left: 10px;
     padding-top: 10px;
+    z-index: 5;
+}
+
+
+.nav-wrapper {
+    border-bottom: 3px solid white;
 }
